@@ -1,0 +1,56 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="300" fill="#0D1117"/>
+
+  <!-- lane labels -->
+  <text x="24" y="24" font-family="JetBrains Mono, monospace" font-size="12" fill="#8B949E">ARCHITECTURE</text>
+
+  <!-- App services emitting traces -->
+  <g transform="translate(24, 60)">
+    <rect width="120" height="50" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="60" y="30" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#F0F6FC">Next.js App</text>
+  </g>
+  <g transform="translate(24, 130)">
+    <rect width="120" height="50" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="60" y="30" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#F0F6FC">Node.js API</text>
+  </g>
+
+  <!-- arrows to collector -->
+  <path d="M144,85 L220,120" stroke="#30363D" stroke-width="1.5" fill="none"/>
+  <path d="M144,155 L220,140" stroke="#30363D" stroke-width="1.5" fill="none"/>
+
+  <!-- OTel Collector -->
+  <g transform="translate(224, 100)">
+    <rect width="140" height="60" rx="8" fill="#0D2A1D" stroke="#00D084" stroke-width="1.5"/>
+    <text x="70" y="27" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#00D084">OpenTelemetry</text>
+    <text x="70" y="44" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#00D084">Collector</text>
+  </g>
+
+  <path d="M364,130 L440,130" stroke="#30363D" stroke-width="1.5" fill="none"/>
+  <polygon points="440,130 432,125 432,135" fill="#30363D"/>
+
+  <!-- Python processor -->
+  <g transform="translate(444, 100)">
+    <rect width="150" height="60" rx="8" fill="#161B22" stroke="#58A6FF" stroke-width="1.5"/>
+    <text x="75" y="27" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#58A6FF">Python Processor</text>
+    <text x="75" y="44" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#8B949E">feature extraction</text>
+  </g>
+
+  <path d="M594,130 L670,130" stroke="#30363D" stroke-width="1.5" fill="none"/>
+  <polygon points="670,130 662,125 662,135" fill="#30363D"/>
+
+  <!-- Isolation Forest -->
+  <g transform="translate(674, 100)">
+    <rect width="130" height="60" rx="8" fill="#161B22" stroke="#58A6FF" stroke-width="1.5"/>
+    <text x="65" y="27" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#58A6FF">Isolation</text>
+    <text x="65" y="44" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#58A6FF">Forest</text>
+  </g>
+
+  <path d="M739,160 L739,210 L364,210" stroke="#30363D" stroke-width="1.5" fill="none"/>
+  <polygon points="364,210 372,205 372,215" fill="#30363D"/>
+
+  <!-- Dashboard -->
+  <g transform="translate(224, 190)">
+    <rect width="140" height="50" rx="8" fill="#0D2A1D" stroke="#00D084" stroke-width="1.5"/>
+    <text x="70" y="30" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#00D084">Live Dashboard</text>
+  </g>
+</svg>

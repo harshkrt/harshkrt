@@ -1,0 +1,55 @@
+<svg width="1584" height="400" viewBox="0 0 1584 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#21262D" opacity="0.5"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="60%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1584" height="400" fill="#0D1117"/>
+  <rect width="1584" height="400" fill="url(#grid)"/>
+  <rect width="1584" height="400" fill="url(#fade)"/>
+
+  <!-- Top status dots -->
+  <g transform="translate(1480, 40)">
+    <circle cx="0" cy="0" r="5" fill="#F85149"/>
+    <circle cx="20" cy="0" r="5" fill="#D29922"/>
+    <circle cx="40" cy="0" r="5" fill="#00D084">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Icon mark: node graph -->
+  <g transform="translate(64, 60)">
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <circle cx="28" cy="18" r="4" fill="#58A6FF"/>
+    <circle cx="16" cy="38" r="4" fill="#00D084"/>
+    <circle cx="40" cy="38" r="4" fill="#00D084"/>
+    <line x1="28" y1="18" x2="16" y2="38" stroke="#30363D" stroke-width="1.5"/>
+    <line x1="28" y1="18" x2="40" y2="38" stroke="#30363D" stroke-width="1.5"/>
+  </g>
+
+  <!-- Name -->
+  <text x="64" y="165" font-family="JetBrains Mono, monospace" font-size="34" font-weight="600" letter-spacing="2" fill="#F0F6FC">HARSH KUMAR</text>
+
+  <!-- Tagline -->
+  <text x="64" y="200" font-family="Inter, sans-serif" font-size="17" fill="#8B949E">Full-stack Developer (MERN) &#8594; Building AI-native Systems</text>
+
+  <!-- Terminal line -->
+  <text x="64" y="245" font-family="JetBrains Mono, monospace" font-size="15" fill="#00D084">&gt; I build systems that observe, decide, and act_</text>
+  <rect x="565" y="232" width="9" height="16" fill="#00D084">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom terminal status strip -->
+  <rect x="0" y="360" width="1584" height="40" fill="#161B22"/>
+  <line x1="0" y1="360" x2="1584" y2="360" stroke="#30363D" stroke-width="1"/>
+  <text x="64" y="384" font-family="JetBrains Mono, monospace" font-size="13" fill="#8B949E">node --trace  |  python --train  |  docker build</text>
+  <circle cx="1510" cy="380" r="4" fill="#00D084">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1522" y="384" font-family="JetBrains Mono, monospace" font-size="13" fill="#00D084">live</text>
+</svg>
