@@ -36,13 +36,7 @@
   <text x="64" y="165" font-family="JetBrains Mono, monospace" font-size="34" font-weight="600" letter-spacing="2" fill="#F0F6FC">HARSH KUMAR</text>
 
   <!-- Tagline -->
-  <text x="64" y="200" font-family="Inter, sans-serif" font-size="17" fill="#8B949E">Full-stack Developer (MERN) &#8594; Building AI-native Systems</text>
-
-  <!-- Terminal line -->
-  <text x="64" y="245" font-family="JetBrains Mono, monospace" font-size="15" fill="#00D084">&gt; I build systems that observe, decide, and act_</text>
-  <rect x="565" y="232" width="9" height="16" fill="#00D084">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
+  <text x="64" y="210" font-family="Inter, sans-serif" font-size="18" fill="#8B949E">Full-stack Developer (MERN) &#8594; Building AI-native Systems</text>
 
   <!-- Bottom terminal status strip -->
   <rect x="0" y="360" width="1584" height="40" fill="#161B22"/>
