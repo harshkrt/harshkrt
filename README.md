@@ -4,7 +4,7 @@
 
 <br/>
 
-### 🔧 Currently Building
+### Currently Building
 
 <div align="center">
   <img src="./svg/project-card.svg" width="80%" alt="Distributed Trace Anomaly Detector — in progress" />
@@ -20,7 +20,7 @@
 
 <br/>
 
-### ⚙️ Stack
+### Stack
 
 <div align="center">
   <img src="./svg/tech-icons.svg" width="85%" alt="Tech stack: frontend, backend, ML/AI, devops" />
@@ -28,7 +28,7 @@
 
 <br/>
 
-### 📦 Projects
+### Projects
 
 | Project | Description | Stack |
 |---|---|---|
@@ -43,7 +43,7 @@ Multi-agent system for extracting and validating financial KPIs from unstructure
 
 <br/>
 
-### 📡 Currently Learning / Competing
+### Currently Learning / Competing
 
 <div align="center">
   <img src="./svg/mission-progress.svg" width="80%" alt="Learning roadmap: MERN shipped, DevOps in progress, ML/AI early stage" />
@@ -51,7 +51,9 @@ Multi-agent system for extracting and validating financial KPIs from unstructure
 
 <br/>
 
-### 📊 GitHub Stats
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+### GitHub Stats
 
 <table align="center">
 <tr>
