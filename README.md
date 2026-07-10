@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./svg/banner.svg" width="100%" alt="Harsh Kumar" />
   <br/>
-  <img src="https://readme-typing-svg.demolab.com/api?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=00D084&background=0D1117&center=true&vCenter=true&width=600&lines=I+build+systems+that+observe%2C+decide%2C+and+act;Full-stack+Dev+%E2%86%92+Building+AI-native+Systems" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=00D084&background=0D1117&center=true&vCenter=true&width=600&lines=I+build+systems+that+observe%2C+decide%2C+and+act;Full-stack+Dev+%E2%86%92+Building+AI-native+Systems" alt="Typing animation" />
 </div>
 
 <br/>
