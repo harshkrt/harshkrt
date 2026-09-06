@@ -13,7 +13,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/overview-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/overview-light.svg">
-  <img alt="At a glance: 5 apps deployed and live, 78 commits authored, 16 repositories, 5 years on GitHub. Language distribution led by TypeScript and JavaScript." src="./assets/overview-dark.svg" width="100%">
+  <img alt="At a glance: apps deployed and live, commits authored, repositories built. Language distribution led by TypeScript and JavaScript." src="./assets/overview-dark.svg" width="100%">
 </picture>
 
 ## Currently building
@@ -45,22 +45,20 @@ Most side projects stop at "it works on my machine." I wanted to find out what h
 
 </details>
 
-## Selected work
+## Latest projects
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/projects-light.svg">
-  <img alt="Project cards: DTAD, tenHours, child vaccination tracker, fleet platform, FinAgent, portfolio" src="./assets/projects-dark.svg" width="100%">
+  <img alt="Latest projects: Tenhours e-commerce website, VaxTracker vaccination scheduler, FinAgent multi-agent KPI extraction, and a personal website" src="./assets/projects-dark.svg" width="100%">
 </picture>
 
 |  | Project | What's interesting | |
 |:--|:--|:--|:--|
-| 🟠 | **[DTAD](https://github.com/harshkrt/DTAD)** | End-to-end OpenTelemetry pipeline with an ML scorer | |
-| 🟢 | **[tenHours](https://github.com/harshkrt/tenHours)** | Two payment gateways, Google OAuth, Cloudinary media | [live ↗](https://tenhours.vercel.app) |
-| 🟢 | **[Vaccination tracker](https://github.com/harshkrt/child-vaccination-tracking-system)** | Cron-scheduled immunisation reminders, typed end to end | [live ↗](https://child-vaccination-tracking-system.vercel.app) |
-| 🟢 | **[fleet-platform](https://github.com/harshkrt/fleet-platform)** | Zod-validated API with a Jest + Supertest suite | [live ↗](https://fleet-platform-weld.vercel.app) |
+| 🟢 | **[Tenhours](https://github.com/harshkrt/tenHours)** | Two payment gateways, Google OAuth, Cloudinary media | [live ↗](https://tenhours.vercel.app) |
+| 🟢 | **[VaxTracker](https://github.com/harshkrt/child-vaccination-tracking-system)** | Cron-scheduled immunisation reminders, typed end to end | [live ↗](https://child-vaccination-tracking-system.vercel.app) |
 | ⚪ | **[FinAgent](https://github.com/harshkrt/FinAgent)** | LangGraph agents over Weaviate + Neo4j, text-to-SQL on Ollama | |
-| 🟢 | **[Portfolio](https://github.com/harshkrt/Portfolio)** | Next.js + Framer Motion | [live ↗](https://portfolio-umber-iota-13.vercel.app) |
+| 🟢 | **[Personal website](https://github.com/harshkrt/Portfolio)** | Next.js + Framer Motion | [live ↗](https://portfolio-umber-iota-13.vercel.app) |
 
 ## Trajectory
 

@@ -59,8 +59,11 @@ def main():
     for r in repos:
         name = r["name"]
         lb = gh(f"repos/{USER}/{name}/languages", paginate=False) or {}
-        for k, v in lb.items():
-            langs[k] += v
+        # The profile repo is scaffolding for this dashboard, not a project —
+        # counting its generator scripts would inflate the language mix.
+        if name != USER:
+            for k, v in lb.items():
+                langs[k] += v
         r["_langs"] = lb
 
         commits = gh(f"repos/{USER}/{name}/commits?per_page=100") or []

@@ -146,7 +146,7 @@ def render_header(d, p):
 
 def render_overview(d, p):
     """Language mix + honest headline numbers, no vanity metrics."""
-    h = 210
+    h = 180
     s = head(W, h, p)
 
     langs = {k: v for k, v in d["languages"].items() if k in LANG_COLOR or True}
@@ -157,19 +157,18 @@ def render_overview(d, p):
     cw = 250
     s += panel(0, 0, cw, h, p, "AT A GLANCE")
 
-    shipped = sum(1 for r in d["repos"] if r["homepage"])
-    years = datetime.date.today().year - int(d["profile"]["created_at"][:4])
+    shipped = len({r["homepage"].rstrip("/") for r in d["repos"]
+                   if r["homepage"] and r["name"] != "harshkrt"})
     kpis = [(str(shipped), "apps deployed & live", "green"),
             (str(d["total_commits"]), "commits authored", "accent"),
             (str(len([r for r in d["repos"] if r["commits"] > 0])),
-             "repositories built", "purple"),
-            (f"{years}y", "writing code on GitHub", "orange")]
-    y = 56
+             "repositories built", "purple")]
+    y = 64
     for val, lab, col in kpis:
         s += f'<rect x="16" y="{y - 14}" width="3" height="30" rx="1.5" fill="{p[col]}"/>'
         s += text(30, y + 4, val, 21, "text", 700, MONO)
         s += text(30 + 11 * len(val) + 10, y + 3, lab, 11.5, "muted", 400)
-        y += 38
+        y += 40
 
     # --- right: language distribution
     x0 = cw + 14
@@ -296,25 +295,19 @@ def render_timeline(d, p):
 
 # ---------------------------------------------------------------- projects
 
-# Curated: role + what makes each one non-trivial, grounded in real manifests.
+# name → (display name, descriptor, what's interesting, tags, status).
+# DTAD is deliberately absent: it appears once, as "currently building".
 FEATURED = [
-    ("DTAD", "Distributed Trace Anomaly Detector",
-     "OpenTelemetry spans → Node processor → FastAPI + scikit-learn scorer",
-     ["Next.js", "OpenTelemetry", "FastAPI", "scikit-learn", "MongoDB"],
-     "building"),
-    ("tenHours", "Sanitary-care e-commerce",
+    ("tenHours", "Tenhours", "e-commerce website",
      "Dual payment rails (Razorpay + Cashfree), Google OAuth, Cloudinary media",
      ["React", "Redux Toolkit", "Express", "MongoDB", "TypeScript"], "live"),
-    ("child-vaccination-tracking-system", "Vaccination scheduler",
+    ("child-vaccination-tracking-system", "VaxTracker", "vaccination scheduler",
      "Cron-driven immunisation reminders over a typed Express/Mongo backend",
      ["React", "Express", "TypeScript", "node-cron"], "live"),
-    ("fleet-platform", "Fleet management API",
-     "Zod-validated routes, rate limiting, Jest + Supertest integration suite",
-     ["Express", "MongoDB", "Zod", "Jest"], "live"),
-    ("FinAgent", "Multi-agent KPI extraction",
+    ("FinAgent", "FinAgent", "multi-agent KPI extraction",
      "LangGraph agents over Weaviate + Neo4j, text-to-SQL on local Ollama",
      ["LangGraph", "Weaviate", "Neo4j", "Ollama", "FastAPI"], "paused"),
-    ("Portfolio", "Personal site",
+    ("Portfolio", "Personal website", "portfolio & contact",
      "Next.js + Framer Motion, EmailJS contact pipeline",
      ["Next.js", "Tailwind", "Framer Motion"], "live"),
 ]
@@ -328,7 +321,7 @@ def render_projects(d, p):
     s = head(W, h, p)
 
     status_col = {"building": "orange", "live": "green", "paused": "dim"}
-    for i, (name, title, blurb, tags, status) in enumerate(FEATURED):
+    for i, (name, title, sub, blurb, tags, status) in enumerate(FEATURED):
         r = by_name.get(name, {})
         cx = (i % cols) * (cw + gx)
         cy = (i // cols) * (ch + gy)
@@ -344,7 +337,7 @@ def render_projects(d, p):
         s += text(cx + cw - cwid / 2 - 14, cy + 27.5, chip, 9, status_col[status],
                   700, MONO, anchor="middle", spacing="0.6", p=p)
 
-        s += text(cx + 18, cy + 46, name, 11, "dim", 500, MONO)
+        s += text(cx + 18, cy + 46, sub, 11, "dim", 500, MONO)
         # blurb, wrapped to two lines
         words, line, lines = blurb.split(), "", []
         for wd in words:

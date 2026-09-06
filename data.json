@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T11:53:39+00:00",
+  "generated": "2026-09-06T12:04:44+00:00",
   "profile": {
     "login": "harshkrt",
     "name": "Harsh Kumar ",
@@ -12,8 +12,8 @@
   "languages": {
     "TypeScript": 610254,
     "JavaScript": 363937,
-    "Python": 57857,
     "C++": 43001,
+    "Python": 33735,
     "CSS": 24339,
     "HTML": 15013,
     "Jupyter Notebook": 10217,
