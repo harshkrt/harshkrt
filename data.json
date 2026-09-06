@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T11:22:18+00:00",
+  "generated": "2026-09-06T11:53:39+00:00",
   "profile": {
     "login": "harshkrt",
     "name": "Harsh Kumar ",
@@ -12,8 +12,8 @@
   "languages": {
     "TypeScript": 610254,
     "JavaScript": 363937,
+    "Python": 57857,
     "C++": 43001,
-    "Python": 33735,
     "CSS": 24339,
     "HTML": 15013,
     "Jupyter Notebook": 10217,
@@ -67,11 +67,29 @@
     "2026-08-12": 6,
     "2026-08-17": 1,
     "2026-08-21": 2,
-    "2026-09-02": 1
+    "2026-09-02": 1,
+    "2026-09-06": 1
   },
-  "total_commits": 78,
+  "total_commits": 79,
   "unlinked_commits": 37,
   "repos": [
+    {
+      "name": "harshkrt",
+      "description": "Harsh's Portfolio",
+      "homepage": "https://portfolio-umber-iota-13.vercel.app",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-09-06",
+      "topics": [],
+      "langs": {
+        "Python": 24122
+      },
+      "commits": 15,
+      "archived": false,
+      "first_commit": "2022-03-28",
+      "last_commit": "2026-09-06",
+      "created_at": "2022-03-28"
+    },
     {
       "name": "Portfolio",
       "description": "This is a portfolio website made in nextjs",
@@ -170,21 +188,6 @@
       "first_commit": "2026-07-11",
       "last_commit": "2026-07-11",
       "created_at": "2026-06-23"
-    },
-    {
-      "name": "harshkrt",
-      "description": "Harsh's Portfolio",
-      "homepage": "https://portfolio-umber-iota-13.vercel.app",
-      "language": null,
-      "stars": 0,
-      "pushed_at": "2026-07-10",
-      "topics": [],
-      "langs": {},
-      "commits": 14,
-      "archived": false,
-      "first_commit": "2022-03-28",
-      "last_commit": "2026-07-10",
-      "created_at": "2022-03-28"
     },
     {
       "name": "Chain-Reaction",
