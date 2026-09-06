@@ -1,81 +1,93 @@
-<div align="center">
-  <img src="./svg/banner.svg" width="100%" alt="Harsh Kumar" />
-  <br/>
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=00D084&background=0D1117&center=true&vCenter=true&width=600&lines=I+build+systems+that+observe%2C+decide%2C+and+act;Full-stack+Dev+%E2%86%92+Building+AI-native+Systems" alt="Typing animation" />
-</div>
+<!--
+  This README is generated. Panels are rendered from live GitHub data by
+  tools/fetch_data.py + tools/render.py and refreshed weekly by
+  .github/workflows/dashboard.yml. Edit the generators, not the SVGs.
+-->
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img alt="Harsh Kumar — full-stack engineer building AI-native, observable systems" src="./assets/header-dark.svg" width="100%">
+</picture>
 
-### Currently Building
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/overview-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/overview-light.svg">
+  <img alt="At a glance: 5 apps deployed and live, 78 commits authored, 16 repositories, 5 years on GitHub. Language distribution led by TypeScript and JavaScript." src="./assets/overview-dark.svg" width="100%">
+</picture>
 
-<div align="center">
-  <img src="./svg/project-card.svg" width="80%" alt="Distributed Trace Anomaly Detector — in progress" />
-</div>
+## Currently building
 
-<details>
-<summary><strong>View architecture</strong></summary>
-<br/>
-<div align="center">
-  <img src="./svg/architecture.svg" width="90%" alt="Trace anomaly detector architecture diagram" />
-</div>
-</details>
+**[Distributed Trace Anomaly Detector](https://github.com/harshkrt/DTAD)** — instrument a real
+Next.js app with OpenTelemetry, ship spans over OTLP to a Node processor, persist them, and
+score them for anomalies with a FastAPI + scikit-learn service.
 
-<br/>
-
-### Stack
-
-<div align="center">
-  <img src="./svg/tech-icons.svg" width="85%" alt="Tech stack: frontend, backend, ML/AI, devops" />
-</div>
-
-<br/>
-
-### Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| **Tenhours** | E-commerce platform | MERN |
-| **Child Vaccination Tracking System** | Tracks and manages child vaccination schedules | MERN |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/arch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/arch-light.svg">
+  <img alt="DTAD trace pipeline: Next.js app to OTLP/HTTP to Node processor to MongoDB to FastAPI scikit-learn ml-service" src="./assets/arch-dark.svg" width="100%">
+</picture>
 
 <details>
-<summary><strong>Paused — FinAgent (KPI extraction, multi-agent system)</strong></summary>
-<br/>
-Multi-agent system for extracting and validating financial KPIs from unstructured PDF filings using LLMs and semantic search. Currently paused — not actively in development.
+<summary><strong>Why I'm building it</strong></summary>
+
+<br>
+
+Most side projects stop at "it works on my machine." I wanted to find out what happens
+*after* that — how you know a service is misbehaving before a user tells you.
+
+- **Instrumentation is the hard part, not the model.** Getting clean, correlated spans out
+  of a Next.js app took longer than training the detector.
+- **Anomalies are contextual.** A 400 ms span is fine on a cold start and alarming on a
+  cached read, so the scorer works on distributions, not absolute thresholds.
+- **Three languages, one trace ID.** Keeping context propagated across a TS frontend, a Node
+  processor, and a Python scorer is where most of the design effort went.
+
 </details>
 
-<br/>
+## Selected work
 
-### Currently Learning / Competing
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects-light.svg">
+  <img alt="Project cards: DTAD, tenHours, child vaccination tracker, fleet platform, FinAgent, portfolio" src="./assets/projects-dark.svg" width="100%">
+</picture>
 
-<div align="center">
-  <img src="./svg/mission-progress.svg" width="80%" alt="Learning roadmap: MERN shipped, DevOps in progress, ML/AI early stage" />
-</div>
+|  | Project | What's interesting | |
+|:--|:--|:--|:--|
+| 🟠 | **[DTAD](https://github.com/harshkrt/DTAD)** | End-to-end OpenTelemetry pipeline with an ML scorer | |
+| 🟢 | **[tenHours](https://github.com/harshkrt/tenHours)** | Two payment gateways, Google OAuth, Cloudinary media | [live ↗](https://tenhours.vercel.app) |
+| 🟢 | **[Vaccination tracker](https://github.com/harshkrt/child-vaccination-tracking-system)** | Cron-scheduled immunisation reminders, typed end to end | [live ↗](https://child-vaccination-tracking-system.vercel.app) |
+| 🟢 | **[fleet-platform](https://github.com/harshkrt/fleet-platform)** | Zod-validated API with a Jest + Supertest suite | [live ↗](https://fleet-platform-weld.vercel.app) |
+| ⚪ | **[FinAgent](https://github.com/harshkrt/FinAgent)** | LangGraph agents over Weaviate + Neo4j, text-to-SQL on Ollama | |
+| 🟢 | **[Portfolio](https://github.com/harshkrt/Portfolio)** | Next.js + Framer Motion | [live ↗](https://portfolio-umber-iota-13.vercel.app) |
 
-<br/>
+## Trajectory
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-### GitHub Stats
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg">
+  <img alt="Build timeline from 2022 to 2026: HTML/CSS/JS foundations, then CS fundamentals, then full-stack products, then AI and distributed systems" src="./assets/timeline-dark.svg" width="100%">
+</picture>
 
-<table align="center">
-<tr>
-<td><img src="https://github-stats-extended.vercel.app/api?username=harshkrt&show_icons=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&icon_color=00D084&text_color=F0F6FC&border_color=30363D" /></td>
-<td><img src="https://github-readme-streak-stats.herokuapp.com/?user=harshkrt&theme=github-dark-blue&background=0D1117&border=30363D&ring=58A6FF&fire=00D084&currStreakLabel=F0F6FC" alt="GitHub streak" /></td>
-</tr>
-</table>
+## Stack
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Stack: TypeScript, JavaScript, Python, C++, React, Next.js, Express, FastAPI, MongoDB, LangGraph, Docker, OpenTelemetry and more" src="./assets/stack-dark.svg" width="100%">
+</picture>
 
-<div align="center">
+<sub>Every item above is in active use in one of the repositories linked here — no aspirational logos.</sub>
 
 ---
 
-**building in public** • **open to opportunities** • **always learning**
-
-<a href="https://x.com/harshk_t">Twitter</a> •
-<a href="https://linkedin.com/in/harshk48">LinkedIn</a> •
-<a href="https://harsh-kumar.hashnode.dev">HashNode</a> •
-<a href="https://leetcode.com/harshk48">LeetCode</a> •
-<sub>© Harsh Kumar</sub>
-
+<div align="center">
+  <a href="https://linkedin.com/in/harshk48">LinkedIn</a> ·
+  <a href="https://x.com/harshk_t">Twitter</a> ·
+  <a href="https://harsh-kumar.hashnode.dev">Writing</a> ·
+  <a href="https://leetcode.com/harshk48">LeetCode</a> ·
+  <a href="mailto:hktg480@gmail.com">Email</a>
+  <br><br>
+  <sub>Open to backend, full-stack and platform roles.</sub>
 </div>

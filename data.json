@@ -1,0 +1,373 @@
+{
+  "generated": "2026-09-06T11:22:18+00:00",
+  "profile": {
+    "login": "harshkrt",
+    "name": "Harsh Kumar ",
+    "bio": "I build websites. Open-source enthusiast...",
+    "location": "India",
+    "created_at": "2021-09-12T09:41:45Z",
+    "public_repos": 18,
+    "followers": 6
+  },
+  "languages": {
+    "TypeScript": 610254,
+    "JavaScript": 363937,
+    "C++": 43001,
+    "Python": 33735,
+    "CSS": 24339,
+    "HTML": 15013,
+    "Jupyter Notebook": 10217,
+    "EJS": 4364,
+    "Dockerfile": 840
+  },
+  "commit_days": {
+    "2022-03-01": 1,
+    "2022-03-28": 2,
+    "2022-07-07": 1,
+    "2022-08-13": 1,
+    "2022-09-02": 1,
+    "2022-09-16": 7,
+    "2022-09-23": 1,
+    "2022-10-01": 1,
+    "2022-10-02": 1,
+    "2022-10-05": 1,
+    "2023-04-01": 1,
+    "2023-04-03": 1,
+    "2023-07-11": 1,
+    "2023-12-22": 2,
+    "2023-12-30": 1,
+    "2023-12-31": 1,
+    "2024-01-04": 1,
+    "2024-01-11": 1,
+    "2024-01-21": 1,
+    "2024-07-15": 1,
+    "2024-07-16": 1,
+    "2024-07-19": 1,
+    "2024-08-03": 1,
+    "2024-11-19": 2,
+    "2024-12-19": 1,
+    "2025-02-06": 1,
+    "2025-04-28": 1,
+    "2025-05-13": 1,
+    "2025-06-05": 5,
+    "2025-07-16": 1,
+    "2025-07-19": 1,
+    "2025-07-21": 2,
+    "2025-07-22": 1,
+    "2025-08-07": 1,
+    "2025-08-25": 3,
+    "2025-09-01": 3,
+    "2026-03-14": 1,
+    "2026-03-18": 2,
+    "2026-06-21": 2,
+    "2026-06-24": 3,
+    "2026-07-10": 4,
+    "2026-07-11": 1,
+    "2026-08-10": 1,
+    "2026-08-12": 6,
+    "2026-08-17": 1,
+    "2026-08-21": 2,
+    "2026-09-02": 1
+  },
+  "total_commits": 78,
+  "unlinked_commits": 37,
+  "repos": [
+    {
+      "name": "Portfolio",
+      "description": "This is a portfolio website made in nextjs",
+      "homepage": "https://portfolio-umber-iota-13.vercel.app",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-09-02",
+      "topics": [],
+      "langs": {
+        "JavaScript": 103724,
+        "CSS": 3282
+      },
+      "commits": 10,
+      "archived": false,
+      "first_commit": "2024-07-15",
+      "last_commit": "2026-09-02",
+      "created_at": "2024-07-15"
+    },
+    {
+      "name": "tenHours",
+      "description": "An e-commerce platform for selling sanitary pads ",
+      "homepage": "https://tenhours.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-08-21",
+      "topics": [],
+      "langs": {
+        "TypeScript": 331693,
+        "JavaScript": 2676,
+        "CSS": 1986,
+        "HTML": 494
+      },
+      "commits": 5,
+      "archived": false,
+      "first_commit": "2026-03-14",
+      "last_commit": "2026-08-21",
+      "created_at": "2025-09-01"
+    },
+    {
+      "name": "fleet-platform",
+      "description": null,
+      "homepage": "https://fleet-platform-weld.vercel.app",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-08-17",
+      "topics": [],
+      "langs": {
+        "JavaScript": 79786,
+        "HTML": 365,
+        "CSS": 295
+      },
+      "commits": 7,
+      "archived": false,
+      "first_commit": "2026-08-12",
+      "last_commit": "2026-08-17",
+      "created_at": "2026-08-12"
+    },
+    {
+      "name": "child-vaccination-tracking-system",
+      "description": null,
+      "homepage": "https://child-vaccination-tracking-system.vercel.app",
+      "language": "TypeScript",
+      "stars": 1,
+      "pushed_at": "2026-08-10",
+      "topics": [],
+      "langs": {
+        "TypeScript": 269062,
+        "CSS": 3333,
+        "JavaScript": 1861,
+        "HTML": 422
+      },
+      "commits": 11,
+      "archived": false,
+      "first_commit": "2025-02-06",
+      "last_commit": "2026-08-10",
+      "created_at": "2025-02-06"
+    },
+    {
+      "name": "DTAD",
+      "description": "Distributed Trace Anomaly Detector",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "stars": 1,
+      "pushed_at": "2026-07-11",
+      "topics": [],
+      "langs": {
+        "Jupyter Notebook": 10217,
+        "JavaScript": 8618,
+        "TypeScript": 7432,
+        "Python": 1050,
+        "CSS": 413,
+        "Dockerfile": 316
+      },
+      "commits": 1,
+      "archived": false,
+      "first_commit": "2026-07-11",
+      "last_commit": "2026-07-11",
+      "created_at": "2026-06-23"
+    },
+    {
+      "name": "harshkrt",
+      "description": "Harsh's Portfolio",
+      "homepage": "https://portfolio-umber-iota-13.vercel.app",
+      "language": null,
+      "stars": 0,
+      "pushed_at": "2026-07-10",
+      "topics": [],
+      "langs": {},
+      "commits": 14,
+      "archived": false,
+      "first_commit": "2022-03-28",
+      "last_commit": "2026-07-10",
+      "created_at": "2022-03-28"
+    },
+    {
+      "name": "Chain-Reaction",
+      "description": "This is a grid based Arcade game called Chain Reaction made using pygame library in python.",
+      "homepage": null,
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-06-24",
+      "topics": [],
+      "langs": {
+        "Python": 9230
+      },
+      "commits": 4,
+      "archived": false,
+      "first_commit": "2024-07-19",
+      "last_commit": "2026-06-24",
+      "created_at": "2024-07-19"
+    },
+    {
+      "name": "FinAgent",
+      "description": "A multiagent platform for KPI extraction and text-to-sql agent for natural language query.",
+      "homepage": null,
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2025-08-12",
+      "topics": [],
+      "langs": {
+        "Python": 23455,
+        "Dockerfile": 524
+      },
+      "commits": 6,
+      "archived": false,
+      "first_commit": "2025-07-16",
+      "last_commit": "2025-08-07",
+      "created_at": "2025-07-16"
+    },
+    {
+      "name": "crowdfunding-platform",
+      "description": null,
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2024-12-19",
+      "topics": [],
+      "langs": {
+        "JavaScript": 159264,
+        "TypeScript": 2067,
+        "HTML": 356,
+        "CSS": 146
+      },
+      "commits": 3,
+      "archived": false,
+      "first_commit": "2024-11-19",
+      "last_commit": "2024-12-19",
+      "created_at": "2024-11-12"
+    },
+    {
+      "name": "DSA",
+      "description": "It's a personal repo of c++, c and Java DSA programs. ",
+      "homepage": null,
+      "language": "C++",
+      "stars": 0,
+      "pushed_at": "2024-01-21",
+      "topics": [],
+      "langs": {
+        "C++": 43001
+      },
+      "commits": 4,
+      "archived": false,
+      "first_commit": "2023-12-22",
+      "last_commit": "2024-01-21",
+      "created_at": "2023-12-22"
+    },
+    {
+      "name": "My-Animations",
+      "description": "Some of my animation mini projects",
+      "homepage": null,
+      "language": "CSS",
+      "stars": 0,
+      "pushed_at": "2024-01-11",
+      "topics": [],
+      "langs": {
+        "CSS": 709,
+        "HTML": 374
+      },
+      "commits": 1,
+      "archived": false,
+      "first_commit": "2024-01-11",
+      "last_commit": "2024-01-11",
+      "created_at": "2024-01-11"
+    },
+    {
+      "name": "Frontend-stuffs",
+      "description": "A few of my mini frontend pages",
+      "homepage": null,
+      "language": "CSS",
+      "stars": 0,
+      "pushed_at": "2023-12-30",
+      "topics": [],
+      "langs": {
+        "CSS": 5395,
+        "HTML": 4931
+      },
+      "commits": 1,
+      "archived": false,
+      "first_commit": "2023-12-30",
+      "last_commit": "2023-12-30",
+      "created_at": "2023-12-30"
+    },
+    {
+      "name": "Todo-list",
+      "description": "This project is a todolist web application.",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 0,
+      "pushed_at": "2023-07-11",
+      "topics": [],
+      "langs": {
+        "HTML": 2750,
+        "CSS": 2572,
+        "JavaScript": 2274
+      },
+      "commits": 3,
+      "archived": false,
+      "first_commit": "2023-04-01",
+      "last_commit": "2023-07-11",
+      "created_at": "2023-04-03"
+    },
+    {
+      "name": "javascript-projects",
+      "description": null,
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2022-09-16",
+      "topics": [],
+      "langs": {
+        "JavaScript": 4074,
+        "CSS": 3781,
+        "HTML": 2704
+      },
+      "commits": 6,
+      "archived": false,
+      "first_commit": "2022-09-16",
+      "last_commit": "2022-09-16",
+      "created_at": "2022-09-16"
+    },
+    {
+      "name": "first-cv",
+      "description": null,
+      "homepage": null,
+      "language": "HTML",
+      "stars": 0,
+      "pushed_at": "2022-08-13",
+      "topics": [],
+      "langs": {
+        "HTML": 2617,
+        "CSS": 2225
+      },
+      "commits": 1,
+      "archived": false,
+      "first_commit": "2022-08-13",
+      "last_commit": "2022-08-13",
+      "created_at": "2021-09-12"
+    },
+    {
+      "name": "authentication-practice",
+      "description": null,
+      "homepage": null,
+      "language": "EJS",
+      "stars": 0,
+      "pushed_at": "2022-03-01",
+      "topics": [],
+      "langs": {
+        "EJS": 4364,
+        "JavaScript": 1660,
+        "CSS": 202
+      },
+      "commits": 1,
+      "archived": false,
+      "first_commit": "2022-03-01",
+      "last_commit": "2022-03-01",
+      "created_at": "2022-03-01"
+    }
+  ]
+}

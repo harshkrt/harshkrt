@@ -1,0 +1,49 @@
+name: Refresh dashboard
+
+on:
+  schedule:
+    - cron: '17 4 * * 1'   # Mondays, 04:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - '.github/workflows/dashboard.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch live GitHub data
+        env:
+          # gh is preinstalled on the runner; GH_TOKEN is what it authenticates with.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/fetch_data.py
+
+      - name: Render panels
+        run: python tools/render.py
+
+      - name: Commit if the dashboard changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet -- assets data.json; then
+            echo "dashboard unchanged — nothing to commit"
+            exit 0
+          fi
+          git add assets data.json
+          git commit -m 'chore: refresh dashboard from live GitHub data'
+          git push
